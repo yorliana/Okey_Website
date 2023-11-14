@@ -1,0 +1,146 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.LandinPage{
+    width: 1800px;
+    height: 3400px;
+    bottom: 0;
+    border-radius:  0px, 40px, 40px;
+  
+   
+    background: black; background-image:url("../assets/img/Okey_Web.png"); 
+}
+.contenedor{
+   
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+  
+    padding-left: 100px;
+    width: 1250px;
+    height: 1480px;
+    background: black;
+    
+   ;
+     
+    }
+    .copy{
+
+        display: flex;
+        padding-left: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+        flex-direction: row;
+        margin-left: 120px;
+        color: #FFFFFF;
+      }
+      
+     
+.principal{
+ 
+  
+    justify-content: right;
+    width: 80px;
+    margin-right: 0%;
+    
+}
+.ovalo{
+    position:absolute;
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    align-items: left;
+    padding-top: 45rem;
+    padding-left: 250px;
+   width: 980;
+   height: 760px;
+  
+  }
+.container{
+    padding: 0rem;
+    margin: auto;
+}
+.button{
+   
+    display: block;
+    width: 100px;
+    height: 100px;
+   position: relative;
+}
+.btn{
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+    color : white;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    flex-direction: row;
+    padding-bottom: center;
+}
+.con{
+ padding-bottom: center ;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+padding-left: 180px;
+}
+.botoflecha{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+    padding-top: center;
+
+
+}
+
+
+.img {
+    float: left;
+   position: absolute;
+    margin: 0;
+    margin-top: 0;
+    padding: 0.2px 0px;
+    margin-top: 0;
+    justify-content: right;
+    width: 300px;
+    margin-right: 0%;
+    flex-direction: initial;
+    justify-items: right;
+   text-justify: auto;
+    display: flex;
+}
+
+.ul{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    list-style: none;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-image:#FFFFFF ;
+    font-size: 20px;
+   
+}
+.ul li:hover{
+    color: #27272a;
+   
+    transform: translate3d(0px, 0vw, 0px);
+   
+    scale: 3d(1,1,1) ;
+    rotate: X(0deg);
+    rotate: Y(0deg);
+    rotate: Z(0deg);
+    transform-style: preserve-3d;
+}

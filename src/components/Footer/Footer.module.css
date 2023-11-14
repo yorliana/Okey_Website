@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.footer{
+width: 100%;
+position: relative;
+opacity: 0.1rem
+;
+bottom: 0;
+
+padding: 100px 0 30 px;
+
+font-size: 13px;
+line-height: 20px;
+
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between ;
+
+
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+    font-family: 'PP Monument Extended';
+    font-size: 14px;
+
+}
+.h2{
+    color: 'white';
+    font-size: 14;
+    font-family: 'PP Monument Extended';
+     font-weight: '800';
+     word-wrap: 'break-word';
+
+}
+.span{
+    color: #803DEA;
+  
+}
+
+.p{
+    color: white;
+    font-size: 1p4x;
+    font-family: 'PP Object Sans';
+    font-Weight: 400;
+    text-decoration: underline;
+    word-Wrap: break-word;
+    text-justify: auto;
+}
+
+.oculto{
+    color: #000;
+    
+    padding: 7px;
+
+}
+.pp{
+    font-size: 12px;
+    font-Family: 'PP Object Sans';
+     font-weight: 400;
+      word-wrap: 'break-word'
+}
+.col:nth-child(20), .col:ntn-child(3){
+    flex-basis: 15%;
+}
+
+.logo{
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 1px solid #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    font-family: 'PP Monument Extended';
+
+
+}
+.h3{
+    width: fit-content;
+    margin-bottom: 1px solid #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    font-family: 'PP Monument Extended';
+  
+}
+.ul{
+    list-style-type: none;
+}
+.ul li{
+list-style: none;
+list-style-image: none;
+margin-bottom: 12px;
+font-size: 12;
+font-family:'PP Monument Extended';
+
+}
+
+ul li a{
+    text-decoration: underline;
+    color: #fff;
+ 
+}
+.social .icon{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+line-height: 20px;
+font-size: 20px;
+color: #000;
+background: #fff;
+margin-right: 15px ;
+cursor: pointer;
+
+
+}
+
+.hr{
+    width: 90% ;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+
+}
+
+.button{
+    background: #803DEA;
+    width: 268.92; 
+    height: 34.96;
+   
+     fill:none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    border-radius: 20px;
+    align-items: center;
+    text-Align: center;
+    color: white;
+    font-Size: 10;
+    font-Family: 'PP Object Sans';
+    font-Weight: '400';
+    word-Wrap: 'break-word';
+    top:8528px ;
+    }
+
+    .copyright{
+      color: white;
+       font-size: 12px;
+        font-Family: 'PP Object Sans';
+        font-Weight:400;
+        text-align: center;
+        text-justify: distribute-all-lines;
+        line-height: 9.1px;
+    inline-size: none;
+    line-height: 14px;
+        
+    }
+ .copy{
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: 'PP Object Sans';
+    text-justify: distribute;
+    flex-direction: column;
+   display: flex;
+   text-align: center;
+
+
+ }
+
+
+.svg{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+}
+
+.btn{
+    border-radius: 30px 30px 0 0;
+    background: #803DEA;
+    display: flex;
+    justify-content: center;
+    width: 269px;
+    height: 35px;
+    align-items: center;
+    font-family:  'Object Sans';
+    font-size: 10px;
+    color: #ccc;
+    text-align: center;
+    flex-direction: column;
+ 
+margin: auto;
+padding: 0.2px;
+
+}
+@media only screen and (max-width: 1024px) {
+	.btn{
+        width: 269px;
+    height: 35px;
+	}
+
+ }
+
+ @media only screen and (min-width: 360px   ) {
+	.btn{ 
+        width: 269px;
+    height: 35px;
+     }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

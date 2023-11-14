@@ -1,0 +1,173 @@
+.contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+ 
+	color: var(--textColor);
+    width: 1400px;
+    height: 1000px;
+    background-color: #000000;
+    border-top-left-radius: 10;
+    border-top-right-radius: 10;
+    border-radius: 0px 0px 40px 40px;
+    flex-direction:column;
+    }
+    
+    .div{
+        margin-left: 70px;
+        padding: 0%;
+        margin: 2rem;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+
+
+
+    }
+
+
+    .label {
+        height: 198px;
+        width: 777px;
+      }
+      
+      .label .hacer {
+        color: transparent;
+        font-family: "PP Monument Extended-Black", Helvetica;
+        font-size: 70px;
+        font-weight: 900;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+       
+        top: 0;
+      }
+      
+      .label .text {
+        color: #ffffff;
+      }
+      
+      .label .sapan {
+        color: #803dea;
+      }
+      
+    .base{
+
+        width: 800px;
+        height: 200px;
+        top: 2536px;
+        margin-left: 70px;
+        font-family: 'PP Monument Extended';
+        font-size: 70px;
+        line-height: 99.26px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin: 0%;
+      
+    }
+    
+    .numero{
+
+        color: #803dea;
+         font-size: 40px;
+         margin-top: 1rem;
+            }
+
+            .boxes{
+                display: flex;
+                flex-direction: column;
+       
+       
+           }
+    .boxs{
+         display: flex;
+         flex-direction: column;
+
+
+    }
+    .box {
+        height: 273px;
+        width: 445px;
+        padding: 1rem;
+      }
+      
+      .box .rectangle {
+        background-color: #0bffae;
+        border: 1px solid;
+        border-radius: 10px;
+        height: 273px;
+        margin-left: 0;
+      
+        margin-top: 0;
+        width: 445px;
+      }
+
+      
+
+      .box1 {
+        height: 273px;
+        width: 445px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+      }
+      
+      .box1 .rectangle1 {
+        background-color:  #00dbff;
+        border-radius: 10px;
+        height: 273px;
+        left: 0;
+       
+        top: 0;
+        width: 445px;
+      }
+
+      .box2 {
+        height: 273px;
+        width: 445px;
+        padding: 1rem;
+      }
+      
+      .box2 .rectangle2 {
+        background-color: #ff3722;
+        border-radius: 10px;
+        height: 273px;
+        left: 0;
+    
+        top: 0;
+        width: 445px;
+      }
+      
+      .box3 {
+        height: 273px;
+        width: 445px;
+        padding: 1rem;
+      }
+      
+      .box3 .rectangle3 {
+        background-color: #803dea;
+        border-radius: 10px;
+        height: 273px;
+        left: 0;
+        
+        top: 0;
+        width: 445px;
+      }
+      
+      
+    @media only screen and (max-width: 1400px ) {
+	.contenedor{
+        width: 100%;
+        padding: 10px 0;
+	}
+
+ }
+
+ @media only screen and (min-width: 360px   ) {
+	.contenedor { 
+        width: 100%;
+        padding: 10px 0;
+     }
+      }
