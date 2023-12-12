@@ -15,7 +15,10 @@ export default function Proyectos() {
 
       
       <Proyecto />
-      <Redes />
+      <div className={style.redes}>
+        <Redes />
+      </div>
+      
         <div className={style.con}>
             <a className={style.btn} href="#"><img className={style.botoflecha}  src={botoflecha} alt="" /></a>
                 </div>

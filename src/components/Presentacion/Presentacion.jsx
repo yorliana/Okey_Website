@@ -2,7 +2,7 @@ import React from "react";
 import style from  './Presentacion.module.css'
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router-dom"
-import img from "../../../src/assets/img/LogoOkey.svg"
+import img from "../../../src/assets/img/LogoOkey.png"
 import ovalo from '../../assets/img/Okey_Web.png'
 import flecha from '../../assets/img/flecha.png'
 import Redes from "../foo/Redes";
