@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Poppins:wght@100;400&display=swap');
+
+.contenedor{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 0rem;
+    padding: 0.1rem;
+    color: var(--textColor);
+    width: 1200px ;
+    height:1200px;
+    border-top-left-radius: 10;
+    border-top-right-radius: 10;
+    flex-direction:column;
+    padding-left: 120px;
+    }
+    .idioma{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: left;
+    padding-left: 120px;
+    padding-top: 2px;
+    
+    }
+  
+.imagen{
+  
+    justify-content:end;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-left: 120px;
+    display: inline-block;
+    text-align: center;
+}
+
+.button{
+    background-color: #000000;
+    color: white;
+    background: #000000;
+    padding-right: 120px;
+    margin-right: 120px;
+          
+     
+    }
+
+.con{
+      
+    flex-direction:row;
+    display: flex;
+    justify-content: left;
+    padding-left: 200px;
+    padding: 50px;
+        
+    } 
+    
+.img{
+    padding-left: 80px;
+    width: 300px;
+    height: 100px;
+    margin-left: 90px;
+
+    }
+
+.flecha{
+ 
+    display: flex;
+    padding-left: 130px;
+    rotate: 90px;
+  }
+
+.btn{
+
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+    color : white;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    flex-direction: row;
+    padding-bottom: center;
+    rotate: 90px;;
+    padding-left: 100px;
+
+  }
+
+.letraspro{
+
+    padding-left: 100px;
+    display: flex;
+  }
+
+.p{
+    color: #FFFFFF;
+    font-size: 6px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 140px;
+
+  }
+
+.morado{
+
+    padding-left: 130px;
+  }
+
+.flechabajo{
+    display: flex;
+    flex-direction: row;
+    color: #803DEA;
+    padding-left: 110px;
+    width: 30px;
+    height: 25px;
+  }
+    
+   
+.botoflecha{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+    padding-top: center;
+    rotate: 90px;
+    transform: scale(-1);
+    transform: rotate(90);
+    transform: rotate(270deg);
+  
+  }
+    
+ #NavBarContainer{
+  background-color: #000000;
+  display: flex;
+  justify-content:left;
+  flex-direction: row;
+  align-items: left;
+  color:#ECF0F1;
+  font-family: 'poppins';
+  font-style: initial;
+  height: 70%;
+  font-family: 'Poppins', sans-serif;
+  padding: auto;
+}
+#NavBarContainer{
+  background-color: #000000;
+  display: flex;
+  justify-content:left;
+  align-items: left;
+  color: #ECF0F1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 90;
+  height: 10px;
+ margin-top: 10px;
+
+}
+
+
+#NavBarContainer ul {
+  width: 200%;
+  height: 100%;
+  display:grid;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 130px;
+  line-height:10rem;
+
+ 
+ }
+#NavBarContainer#NavBarContainer ul a{
+ text-decoration: none;
+  font-weight:100;
+  padding-left: 100px; 
+ 
+  
+  
+}
+
+#NavBarContainer ul li {
+ 
+  color: #909497;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 150px;
+  font-weight: 100;
+  padding-inline: 1px;
+
+}
+
+#NavBarContainer ul li:hover{
+  color: #FFFFFF;
+  transition: all 150ms;
+  transform: scale(1.1);
+  cursor: pointer;
+  padding: 1px 0;
+}
+
+#NavBarContainer ul #active{
+  color: #FFFFFF;
+  transform: scale(1.03);
+}  
+
+.flecha{
+  
+  color: #803DEA;
+  margin-top: 10px;
+  size: 500px;
+ 
+  
+ 
+
+}
+.easy{
+    padding-left: 140px;
+    padding: auto;
+
+  }
+
+  .h2{
+    font-size: 100px;
+    text-decoration: none;
+    font-weight:100;
+    padding-left: 90px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+  margin: 0%;
+  }
+.flez{
+  padding: 70px;
+ 
+}
+
+.p{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.objeto{
+
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    padding-left: 240px;
+}
+
+
+
+
+    @media only screen and (max-width: 1400px ) {
+	.contenedor{
+        width: 100%;
+        padding: 10px 0;
+	}
+
+ }
+
+ @media only screen and (min-width: 360px   ) {
+	.contenedor { 
+        width: 100%;
+        padding: 10px 0;
+     }
+      }
