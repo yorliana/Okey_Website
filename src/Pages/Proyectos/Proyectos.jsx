@@ -13,8 +13,9 @@ export default function Proyectos() {
     
       <>
 
-      
+     
       <Proyecto />
+    
       <div className={style.redes}>
         <Redes />
       </div>
