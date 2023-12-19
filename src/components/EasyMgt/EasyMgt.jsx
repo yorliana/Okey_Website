@@ -25,8 +25,9 @@ const EasyMgt = () => {
       </div>
 
       <div className={style.con}>
+        <div className={style.imgenes}> 
         <img className={style.img} src={img} alt="" />
-
+        </div>
       </div>
       <div className={style.flecha}>
         <a className={style.btn} href="/landing"><img className={style.boto} src={boton} alt="" /></a>
