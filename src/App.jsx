@@ -11,6 +11,9 @@ import Reels from "./Pages/Reels/Reels";
 import Teams from "./Pages/Teams/Teams";
 import Yorli from "./Pages/Yorli/Yorli";
 import May from "./Pages/May/May";
+import Cliente from "./components/Cliente/Cliente";
+import Clientes from "./Pages/Clientes/Clientes";
+import Servicio from "./Pages/Servicio/Servicio";
 
 
 function App() {
@@ -30,7 +33,8 @@ function App() {
         <Route path="/team" element={<Teams />} />
         <Route path="/yorliana" element={<Yorli/>} />
         <Route path="/mayra" element={<May/>} />
-
+        <Route path="/clientes" element={<Clientes/>} />
+        <Route path="/servicios" element={<Servicio/>} />
       </Routes>
      
     </>
