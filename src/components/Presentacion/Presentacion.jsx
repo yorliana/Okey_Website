@@ -20,7 +20,7 @@ const Presentacion = () => {
     <div className={style.contenedor}> 
     
 <div className={style.idioma}>
-            <Link className={style.button}>ES | EN</Link>
+            <Link className={style.buttonIdioma}>ES | EN</Link>
           </div>
 
         <div className={style.con}>
