@@ -14,6 +14,7 @@ import May from "./Pages/May/May";
 import Cliente from "./components/Cliente/Cliente";
 import Clientes from "./Pages/Clientes/Clientes";
 import Servicio from "./Pages/Servicio/Servicio";
+import Contacto from "./Pages/Contacto/Contacto";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/mayra" element={<May/>} />
         <Route path="/clientes" element={<Clientes/>} />
         <Route path="/servicios" element={<Servicio/>} />
+        <Route path="/contacto" element={<Contacto/>} />
       </Routes>
      
     </>

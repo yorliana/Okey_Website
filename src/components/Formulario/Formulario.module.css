@@ -1,22 +1,123 @@
-.body{
-    background: #FFFFFF;
-    color: #FFFFFF;
-    width: 100%;
+.contenedor {
+	min-height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
    
     
 }
 
-.h2{
+.separados{
+    display: inline-table;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 30px;
+
    
-  
-    width: 757;
-    height: 119;
-    color: black;
-    font-Size: 50; 
-    font-Family: 'PP Monument Extended';
-    font-Weight: 800;
-    line-Height: 57;
-    word-Wrap: break-word;
+}
+.formulario {
+	min-width: 600px;
+	margin-top: 50px;
+	background: 5px solid  black;
+	border-radius: 5px;
+	padding: 20px;
+
+    color: #FFFF ;
+}
+
+.formulario > div {
+	margin-bottom: 20px;
+    background: black;
+ 
+}
+
+.formulario label {
+	display: block;
+	font-weight: 900px;
+	font-size: 12px;
+	margin-bottom: 5px;
+    padding-left: 20px;
+	color: #FFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+   padding: 20px;
+    justify-content: space-between;
+    background: black;
+}
+
+.formulario input,
+.formulario textarea {
+	font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+	width: 500px;
+	border-radius: 100px;
+	font-size: 18px;
+	padding: 20px;
+	margin-bottom: 5px;
+	color: #FFFF;
+    justify-content: space-between;
+    background: black;
+    border-style: solid;
+   
+}
+
+.formulario input:focus {
+	outline: none;
+    border-color: #FFFF;
+	border: solid #FFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.formulario .error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.formulario button[type="submit"] {
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 100px;
+	cursor: pointer;
+	width: 100px;
+    height: 100px;
+	padding: center;
+	font-size: 16px;
+	transition: .3s ease all;
+    align-items: center;
+   background: black;
+   justify-content: space-between;
+}
+
+.ContButon{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.formulario button[type="submit"]:hover {
+	background: black;
+}
+
+.formulario .exito {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: #803DEA;
+}
+
+.formulario input[type="radio"] {
+	width: auto;
+   
+}
       
-        
+.boton{
+    width: 89px;
+    height:89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

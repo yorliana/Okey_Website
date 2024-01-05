@@ -50,7 +50,11 @@
     align-items: left;
     padding-left: 120px;
     padding-top: 2px;
-    
+    font-family:   'Archivo', sans-serif;
+    font-weight: 100;
+    position: relative;
+    font-size: 14px;
+   
     }
     .img{
       padding-left: 50px;
@@ -60,13 +64,15 @@
       image-resolution: 1080rem;
 
     }
-    .button{
+    .buttonIdioma{
       background-color: #000000;
       color: white;
       background: #000000;
-      padding-right: 120px;
-      margin-right: 120px;
-          
+      padding-right: 35px;
+      margin-right: 35px;
+      font-family: 'Archivo', sans-serif ;
+      font-weight: 100;
+      list-style: none;
      
     }
 
