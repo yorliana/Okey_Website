@@ -11,6 +11,7 @@ import botoflecha from "../../assets/img/blotoflecha.png"
 
 export default function LandingPage() {
   const {pathname} = useLocation()
+  
 
   return (
 

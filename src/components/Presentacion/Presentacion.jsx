@@ -7,9 +7,35 @@ import ovalo from '../../assets/img/Okey_Web.png'
 import flecha from '../../assets/img/flecha.png'
 import Redes from "../foo/Redes";
 import Proyectos from "../../Pages/Proyectos/Proyectos";
+import i18next from "i18next";
+import { initReactI18next } from "react-i18next";
+import en from "../../components/i18n/en.json";
+import es from "../../components/i18n/es.json";
+
+
+
+i18next.use(initReactI18next) 
+.init({
+  leng: 'es',interpolation: {
+    escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
+  },
+
+  resources: {
+    en: {
+      translation: en 
+    },
+    es:{
+      translation:es
+    }
+  }
+  
+});
+
+
 const Presentacion = () => {
   const {pathname} = useLocation()
    
+
 
 
     
