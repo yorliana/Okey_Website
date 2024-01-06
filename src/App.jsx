@@ -15,10 +15,11 @@ import Cliente from "./components/Cliente/Cliente";
 import Clientes from "./Pages/Clientes/Clientes";
 import Servicio from "./Pages/Servicio/Servicio";
 import Contacto from "./Pages/Contacto/Contacto";
+import { useTranslation } from "react-i18next";
 
 
 function App() {
-
+const {t} = useTranslation()
 
   return (
     <>
@@ -37,6 +38,8 @@ function App() {
         <Route path="/clientes" element={<Clientes/>} />
         <Route path="/servicios" element={<Servicio/>} />
         <Route path="/contacto" element={<Contacto/>} />
+
+       
       </Routes>
      
     </>

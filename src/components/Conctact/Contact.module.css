@@ -55,6 +55,7 @@
       justify-content: center;
       padding-left: 50px;
       flex-direction: column;
+      background: black;
     }
     
     .formulario {
@@ -64,6 +65,7 @@
       border-radius: 5px;
       padding: 20px;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+     
     }
     
     .formulario > div {
@@ -88,6 +90,7 @@
       padding: 10px;
       margin-bottom: 5px;
       color: #1f1f1f;
+      
     }
     
     .formulario input:focus {
@@ -145,6 +148,8 @@
       display: flex;
       padding-left: 200px;
       padding: 50px;
+      opacity: 0.9;
+  
     }
     .formuConte{
       background-image: url("src/assets/img/Okey_Web.png");
@@ -156,7 +161,7 @@
       border-radius: 100px;
       padding-left: 100px;
       display: flex;
-      opacity: 0.7;
+      
       
     }
     

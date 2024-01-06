@@ -7,6 +7,27 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./stateManagement/store";
 import { ThemeProvider } from "@material-tailwind/react";
+import { I18nextProvider } from "react-i18next";
+import i18next from "i18next";
+import en from "./components/i18n/en.json"
+import es from "./components/i18n/es.json"
+
+i18next.init({
+  interpolation: { escapeValue: false},
+  lng: "es",
+  resources:{
+    es: {
+      es:'es',
+
+    },
+    en:{
+      en: "en"
+
+    }
+
+  }
+});
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -15,7 +36,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
    
       <BrowserRouter> 
         <ThemeProvider>
+        <I18nextProvider>
         <App />
+        </I18nextProvider>
        </ThemeProvider>
       </BrowserRouter>
     </Provider>
