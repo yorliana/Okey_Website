@@ -11,10 +11,17 @@ import Reels from "./Pages/Reels/Reels";
 import Teams from "./Pages/Teams/Teams";
 import Yorli from "./Pages/Yorli/Yorli";
 import May from "./Pages/May/May";
+import Cliente from "./components/Cliente/Cliente";
+import Clientes from "./Pages/Clientes/Clientes";
+import Servicio from "./Pages/Servicio/Servicio";
+import Contacto from "./Pages/Contacto/Contacto";
+import { useTranslation } from "react-i18next";
+import Modal from "./components/Modal/Modal";
+import Modals from "./Pages/Modals/Modals";
 
 
 function App() {
-
+const {t} = useTranslation()
 
   return (
     <>
@@ -30,7 +37,12 @@ function App() {
         <Route path="/team" element={<Teams />} />
         <Route path="/yorliana" element={<Yorli/>} />
         <Route path="/mayra" element={<May/>} />
-
+        <Route path="/clientes" element={<Clientes/>} />
+        <Route path="/servicios" element={<Servicio/>} />
+        <Route path="/contacto" element={<Contacto/>} />
+        <Route path="/modals" element={<Modals/>} />
+        <Route path="/modal" element={<Modal/>} />
+       
       </Routes>
      
     </>
