@@ -1,0 +1,54 @@
+
+
+.contenedor{
+  width: 1300px;
+  height: 950px;
+  background: #EBEDEF;
+  opacity: 0.9;
+  border-radius: 50px;
+  justify-content: center;
+  margin: 30px;
+  padding: 50px;
+ 
+
+
+
+}
+.button{
+  width:  80px;
+  height: 80px;
+  font-size: 50px;
+  border-radius: 100px;
+  border-color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color: black;
+ justify-content:center;
+ padding-right: 10px;
+padding: auto;
+margin: 0;
+
+}
+
+.h2{
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 150px;
+  padding-left: 110px;
+  justify-content: right;
+  margin: 0;
+  padding-left: 110px;
+  
+}
+
+
+.cerrar{
+  display: flex;
+  justify-content: right;
+}
+.susu{
+  display: flex;
+  padding-left: 110px;
+  padding: 30px;
+}

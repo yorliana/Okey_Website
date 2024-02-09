@@ -16,6 +16,8 @@ import Clientes from "./Pages/Clientes/Clientes";
 import Servicio from "./Pages/Servicio/Servicio";
 import Contacto from "./Pages/Contacto/Contacto";
 import { useTranslation } from "react-i18next";
+import Modal from "./components/Modal/Modal";
+import Modals from "./Pages/Modals/Modals";
 
 
 function App() {
@@ -38,7 +40,8 @@ const {t} = useTranslation()
         <Route path="/clientes" element={<Clientes/>} />
         <Route path="/servicios" element={<Servicio/>} />
         <Route path="/contacto" element={<Contacto/>} />
-
+        <Route path="/modals" element={<Modals/>} />
+        <Route path="/modal" element={<Modal/>} />
        
       </Routes>
      

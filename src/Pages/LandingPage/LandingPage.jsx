@@ -6,8 +6,28 @@ import Presentacion from "../../components/Presentacion/Presentacion";
 import Redes from "../../components/foo/Redes";
 import ovalo from "../../assets/img/Okey_Web.png"
 import botoflecha from "../../assets/img/blotoflecha.png"
+import i18next from "i18next";
+import global_en from "../../components/i18n/en.json"
+import global_es from "../../components/i18n/es.json"
+import { I18nextProvider } from "react-i18next";
 
-
+i18next.init({
+    interpolation: { escapeValue: false},
+    lng: "es",
+    resources:{
+      es: {
+        global: global_es,
+      
+  
+      },
+      en:{
+        global: global_en,
+   
+  
+      }
+  
+    }
+  });
 
 export default function LandingPage() {
   const {pathname} = useLocation()
@@ -15,7 +35,7 @@ export default function LandingPage() {
 
   return (
 
-    
+    <I18nextProvider i18n={i18next}>
       <div className={style.LandingPage}>
         
         <div className={style.contenedor}>
@@ -37,7 +57,7 @@ export default function LandingPage() {
        </div>
        </div>
         </div>
-        
+        </I18nextProvider>
       
       
       
