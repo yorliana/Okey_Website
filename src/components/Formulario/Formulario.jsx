@@ -1,12 +1,32 @@
-import React from "react";
+
 import  {useState} from 'react';
 import boton from "../../assets/img/boton.png"
 import style from  './Formulario.module.css'
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser'
  import img from "../../assets/img/Okey_Web.png"
 
 const Formulario = () => {
  
+	const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_idkxpz4', 'template_9tbu01s', form.current, {
+        publicKey: 'YVLs0NhG0pb2h3KQW',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+  /*
   const [inputNombre, cambiarInputNombre] = useState('');
 	const [inputCorreo, cambiarInputCorreo] = useState('');
   const [inputPais, cambiarInputPais] = useState('');
@@ -41,14 +61,14 @@ const Formulario = () => {
 	const handleInputServicio = (e) => {
 		cambiarInputServicio(e.target.value);
 	}
-
+*/
   return (
 <>
 
 <div>
 
 
-			<form action="" onSubmit={handleSubmit} className={style.formulario}>
+			<form ref={form} onSubmit={sendEmail} className={style.formulario}>
         <div className={style.separados}>
 				<div>
 					<label htmlFor="nombre">EMPRESA/NOMBRE</label>
@@ -57,21 +77,21 @@ const Formulario = () => {
 						name="nombre"
 						placeholder="Nombre"
 						id="nombre"
-						value={inputNombre}
-						onChange={handleInputNombre}
+						//value={inputNombre}
+						//onChange={handleInputNombre}
 					/>
 				</div>
 
       
 				<div>
-					<label htmlFor="correo">E-MAIL</label>
+					<label htmlFor="email">E-MAIL</label>
 					<input
 						type="text"
-						name="correo"
+						name="email"
 						placeholder="Correo"
 						id="correo"
-						value={inputCorreo}
-						onChange={handleInputCorreo}
+						//value={inputCorreo}
+						//onChange={handleInputCorreo}
 					/>
 				</div>
         </div>
@@ -84,25 +104,25 @@ const Formulario = () => {
 						name="país"
 						placeholder="País"
 						id="país"
-						value={inputPais}
-						onChange={handleInputPais}
+						//value={inputPais}
+						//onChange={handleInputPais}
 					/>
 				</div>
 
         <div>
-					<label htmlFor="servicio">DETALLES DEL SERVICIO/OPCIONAL</label>
+					<label htmlFor="message">DETALLES DEL SERVICIO/OPCIONAL</label>
 					<input
 						type="text"
-						name="sericio"
+						name="message"
 						placeholder="Servicio"
 						id="servicio"
-						value={inputServicio}
-						onChange={handleInputServicio}
+						//value={inputServicio}
+						//onChange={handleInputServicio}
 					/>
 				</div>
         </div>
         <div className={style.ContButon}>
-				<button type="submit"><img  className ={style.boton} src={boton} alt="" /></button>
+				<button type="submit" value ="Send"> <img  className ={style.boton} src={boton} alt="" /></button>
         </div>
 			</form>
       
