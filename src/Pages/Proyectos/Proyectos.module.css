@@ -26,15 +26,21 @@
     display: flex;
     padding-left: 20px;
     font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
     font-weight: 100px;
+=======
+>>>>>>> 68a5aec (commit)
     font-size: 8px;
     flex-direction: row;
     margin-left: 120px;
     color: #FFFFFF;
   }
+<<<<<<< HEAD
 
   .redes{
     padding-left: 100px;
   }
 
+=======
+>>>>>>> 68a5aec (commit)
   

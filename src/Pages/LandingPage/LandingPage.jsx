@@ -6,6 +6,7 @@ import Presentacion from "../../components/Presentacion/Presentacion";
 import Redes from "../../components/foo/Redes";
 import ovalo from "../../assets/img/Okey_Web.png"
 import botoflecha from "../../assets/img/blotoflecha.png"
+<<<<<<< HEAD
 import i18next from "i18next";
 import global_en from "../../components/i18n/en.json"
 import global_es from "../../components/i18n/es.json"
@@ -36,6 +37,17 @@ export default function LandingPage() {
   return (
 
     <I18nextProvider i18n={i18next}>
+=======
+
+
+
+export default function LandingPage() {
+  const {pathname} = useLocation()
+
+  return (
+
+    
+>>>>>>> 68a5aec (commit)
       <div className={style.LandingPage}>
         
         <div className={style.contenedor}>
@@ -57,7 +69,11 @@ export default function LandingPage() {
        </div>
        </div>
         </div>
+<<<<<<< HEAD
         </I18nextProvider>
+=======
+        
+>>>>>>> 68a5aec (commit)
       
       
       

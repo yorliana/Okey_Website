@@ -1,12 +1,20 @@
+<<<<<<< HEAD
 .contenedor {
 	min-height: 100vh;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
+=======
+.body{
+    background: #FFFFFF;
+    color: #FFFFFF;
+    width: 100%;
+>>>>>>> 68a5aec (commit)
    
     
 }
 
+<<<<<<< HEAD
 .separados{
     display: inline-table;
     flex-direction: row;
@@ -121,3 +129,19 @@
     justify-content: center;
     align-items: center;
 }
+=======
+.h2{
+   
+  
+    width: 757;
+    height: 119;
+    color: black;
+    font-Size: 50; 
+    font-Family: 'PP Monument Extended';
+    font-Weight: 800;
+    line-Height: 57;
+    word-Wrap: break-word;
+      
+        
+}
+>>>>>>> 68a5aec (commit)

@@ -13,6 +13,7 @@ export default function Proyectos() {
     
       <>
 
+<<<<<<< HEAD
      
       <Proyecto />
     
@@ -20,6 +21,11 @@ export default function Proyectos() {
         <Redes />
       </div>
       
+=======
+      
+      <Proyecto />
+      <Redes />
+>>>>>>> 68a5aec (commit)
         <div className={style.con}>
             <a className={style.btn} href="#"><img className={style.botoflecha}  src={botoflecha} alt="" /></a>
                 </div>
