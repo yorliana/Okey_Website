@@ -27,7 +27,7 @@ const {t} = useTranslation()
     <>
       
       <Routes>
-        <Route path="/landing" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
 
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/easy" element={<Easy />} />
