@@ -3,7 +3,6 @@ import './App.css'
 import LandingPage from './Pages/LandingPage/LandingPage';
 
 import Proyectos from "./Pages/Proyectos/Proyectos";
-<<<<<<< HEAD
 import Easy from "./Pages/EASY/Easy"
 import Donatella from "./Pages/Donatella/Donatella";
 import Nosotros from "./Pages/Nosotros/Nosotros";
@@ -23,17 +22,11 @@ import Modals from "./Pages/Modals/Modals";
 
 function App() {
 const {t} = useTranslation()
-=======
-
-function App() {
-
->>>>>>> 68a5aec (commit)
 
   return (
     <>
       
       <Routes>
-<<<<<<< HEAD
         <Route path="/" element={<LandingPage />} />
 
         <Route path="/proyectos" element={<Proyectos />} />
@@ -50,13 +43,6 @@ function App() {
         <Route path="/modals" element={<Modals/>} />
         <Route path="/modal" element={<Modal/>} />
        
-=======
-        <Route path="/landing" element={<LandingPage />} />
-
-        <Route path="/proyectos" element={<Proyectos />} />
-       
-
->>>>>>> 68a5aec (commit)
       </Routes>
      
     </>
