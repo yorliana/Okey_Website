@@ -13,11 +13,11 @@ function Modals() {
       <div className={style.cerrar}>
       
       <button className={style.button}> X </button>
-</div><h1 className={style.h2}>servicios</h1>
+</div>
      
       <Modal 
       open={openModal} 
-      onClose={() => setOpenModal(false)} />
+      onClose={() => setOpenModal(true)} />
       </div>
       </div>
   );

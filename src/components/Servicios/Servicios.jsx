@@ -1,6 +1,5 @@
 import React from "react";
 import style from  './Servicios.module.css'
-<<<<<<< HEAD
 import {Link} from "react-router-dom";
 import img from "../../../src/assets/img/LogoOkey.png"
 import flecha from '../../assets/img/flecha.png'
@@ -14,27 +13,10 @@ const Servicios = () => {
 
   const {pathname} = useLocation()
     
-=======
-import SliderBanner from '../SliderBanner/SliderBanner'
-import { useRef } from "react";
-
-
-const Servicios = ({ title, children }) => {
-   
-const navRef = useRef();
-  const showNavbar = () => {
-    navRef.current.classList.toggle(
-        "responsive_nav"
-    );
-
-
-};
->>>>>>> 68a5aec (commit)
 
 
   return (
 
-<<<<<<< HEAD
     <div className={style.contenedor}> 
     
         <div className={style.idioma}>
@@ -192,44 +174,6 @@ de publicidad se asocian con nosotros para aprovechar nuestra experiencia en dis
   
        
 
-=======
-    <><div className={style.contenedor}>
-
-          <div className={style.base}>
-
-              <div className={style.div}>
-
-                  <div className={style.numero}>02</div>
-                  <div className={style.label}>
-                      <p className={style.text}>
-                          <span className={style.text}>
-                              lo que puedes <br />
-                              hacer
-                          </span>
-                          <span className={style.sapan}>/</span>
-                      </p>
-                  </div>
-
-
-
-
-              </div>
-
-
-          </div>
-          <div>
-
-          </div>
-
-      </div><div className={style.card}>
-              <div className={style.header}> Ecommerce
-                  {title}
-              </div>
-              <div className={style.body}>
-                  {children}
-              </div>
-          </div></>
->>>>>>> 68a5aec (commit)
 
   );
 };

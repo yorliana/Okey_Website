@@ -1,17 +1,10 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Poppins:wght@100;400&display=swap');
 
-=======
-
-
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Poppins:wght@100;400&display=swap');
->>>>>>> 68a5aec (commit)
 .contenedor{
     display: flex;
     align-items: left;
     justify-content: left;
     margin: 0rem;
-<<<<<<< HEAD
     padding: 0.1rem;
     color: var(--textColor);
     width: 1200px ;
@@ -21,105 +14,6 @@
     flex-direction:column;
     padding-left: 120px;
     }
-=======
-    padding: 0.2rem;
-    color: var(--textColor);
-    width: 1200px ;
-    height:1100px;
-    border-top-left-radius: 10;
-    border-top-right-radius: 10;
-    flex-direction:column;
-    }
-.imagen{
-  
-    justify-content:end;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    padding-left: 0px;
-    display: inline-block;
-    text-align: center;
-}
-
-    .ovalo{
-      position:absolute;
-      display: inline-block;
-      justify-content: center;
-      display: flex;
-      align-items: left;
-      padding-top: 48rem;
-      padding-left: 300px;
-      width: 1250px;
-    
-    }
-    .con{
-      flex-direction:row;
-      display: flex;
-      justify-content: left;
-      
-    }
-
-  
-  .btn{
-      display: flex;
-      border-radius: 50%;
-      position: relative;
-      color : white;
-      justify-content: center;
-      align-items: center;
-      width: 80px;
-      height: 80px;
-      flex-direction: row;
-      padding-bottom: center;
-      rotate: 90px;;
-      padding-left: 100px;
-  }
-  .letraspro{
-    padding-left: 100px;
-    display: flex;
-  }
-  .p{
-    color: #FFFFFF;
-    font-size: 6px;
-    font-family: 'Poppins', sans-serif;
-    padding-left: 30px;
-  }
-  .morado{
-    padding-left: 130px;
-  }
-  .flechabajo{
-    display: flex;
-    flex-direction: row;
-    color: #803DEA;
-   
-    width: 30px;
-    height: 25px;
-  }
-  .flecha{
- 
-   display: flex;
-
-  padding-left: 30px;
-  rotate: 90px;
-  }
-  .botoflecha{
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      position: relative;
-      justify-content: center;
-      transform: translateY(-50%);
-      transition: all 0.3s ease;
-      cursor: pointer;
-      z-index: 1;
-      padding-top: center;
-      rotate: 90px;
-  transform: scale(-1);
-  transform: rotate(90);
-  transform: rotate(270deg);
-  
-  }
->>>>>>> 68a5aec (commit)
     .idioma{
     display: flex;
     flex-direction: row;
@@ -129,7 +23,6 @@
     padding-top: 2px;
     
     }
-<<<<<<< HEAD
   
 .imagen{
   
@@ -148,26 +41,10 @@
     background: #000000;
     padding-right: 120px;
     margin-right: 120px;
-=======
-    .img{
-      padding-left: 50px;
-      width: 230px;
-      height: 170px;
-      margin-left: 90px;
-
-    }
-    .button{
-      background-color: #000000;
-      color: white;
-      background: #000000;
-      padding-right: 120px;
-      margin-right: 120px;
->>>>>>> 68a5aec (commit)
           
      
     }
 
-<<<<<<< HEAD
 .con{
       
     flex-direction:row;
@@ -328,8 +205,6 @@
   transform: scale(1.03);
 }  
 
-=======
->>>>>>> 68a5aec (commit)
 .flecha{
   
   color: #803DEA;
@@ -341,121 +216,19 @@
 
 }
 
-<<<<<<< HEAD
 .flez{
   padding: 70px;
  
-=======
-.izquierda{
-  color: #803DEA;
-  size: 35px;
-  height: 200px;
-  padding-right: 10px;
-  white-space: 2rem;
-  
-}
-
-.contenido{
-  width:920px;
-  padding-left: 90px;
- 
-  margin: 0.5rem;
-  margin-left: 50px;
-  font-size: 15px;
->>>>>>> 68a5aec (commit)
 }
 
 .p{
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
 }
-<<<<<<< HEAD
 
 
 
 
-=======
-.flez{
-  padding: 70px;
-  
-}
-#NavBarContainer{
-  background-color: #000000;
-  display: flex;
-  justify-content:left;
-  flex-direction: row;
-  align-items: left;
-  color:#ECF0F1;
-  font-family: 'poppins';
-  font-style: initial;
-  height: 100%;
-  
-  position: relative;
-  font-family: 'Poppins', sans-serif;
-}
-#NavBarContainer{
-  background-color: #000000;
-  display: flex;
-  justify-content:left;
-  align-items: left;
-  color: #ECF0F1;
-  font-family: 'Poppins:wght@100', sans-serif;
-  padding-left: 20px;
-
-  height: 30px;
- 
-}
-
-
-#NavBarContainer ul {
-  width: 100%;
-
-  display:grid;
-  align-items: center;
-  justify-content: space-around;
-  list-style: none;
-  padding: 1px 0;
-  font-family: 'Poppins:wght@100', sans-serif;
-
- }
-#NavBarContainer#NavBarContainer ul a{
-  text-decoration: none;
-}
-
-#NavBarContainer ul li {
- 
-  color: #909497;
-  font-family: 'Poppins:wght@100', sans-serif;
-  font-style: normal;
-  font-size: 150px;
-}
-
-#NavBarContainer ul li:hover{
-  color: #FFFFFF;
-  transition: all 150ms;
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-#NavBarContainer ul #active{
-  color: #FFFFFF;
-  transform: scale(1.03);
-}
-
-.repro{
-    width: 45.5px;
-    height: 34.12px ;
-    top: 192.28px;
-    left: 154.21px ;
-    rotate: 90°;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   margin-top: center;
-    
-}
->>>>>>> 68a5aec (commit)
     @media only screen and (max-width: 1400px ) {
 	.contenedor{
         width: 100%;
