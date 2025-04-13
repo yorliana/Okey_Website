@@ -1,3 +1,4 @@
+/*
 import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import flecha from '../../assets/img/flechaAbajo.png'
@@ -151,7 +152,7 @@ const ComponenteConModalAutomatico = () => {
 
 export default ComponenteConModalAutomatico;
 
-/*
+*/
 import React from 'react';
 import style from'./Modal.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -248,4 +249,3 @@ export default function Modal () {
       
           )
 };
-*/

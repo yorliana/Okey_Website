@@ -4,7 +4,7 @@ import style from '../Contacto/Contacto.module.css'
 import Redes from "../../components/foo/Redes";
 import botoflecha from "../../../src/assets/img/blotoflecha.png"
 
-import Contact from "../../components/conctact/Contact";
+import MyContact from "../../components/MyConctact/MyContact";
 
 
 export default function Contacto() {
@@ -13,10 +13,9 @@ export default function Contacto() {
     
     
     <>
-      <Contact />
+      <MyContact />
 
-
-                </>
+     </>
    
   );
 

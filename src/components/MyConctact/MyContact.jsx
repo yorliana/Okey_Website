@@ -5,7 +5,7 @@ import img from "../../../src/assets/img/LogoOkey.png"
 import {useLocation} from "react-router-dom"
 import Formulario from "../Formulario/Formulario";
 import fondo from "../../assets/img/Okey_Web.png"
-import Redes from "../../components/foo/Redes";
+import Redes from "../foo/Redes";
 import botoflecha from "../../../src/assets/img/blotoflecha.png"
 
 
