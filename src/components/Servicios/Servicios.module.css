@@ -57,8 +57,7 @@
     
 .img{
     padding-left: 80px;
-    width: 300px;
-    height: 100px;
+    width: 500px;
     margin-left: 90px;
 
     }
@@ -308,12 +307,16 @@ padding-left: 20px;
    font-weight: 500;
    font-family: 'Poppins', sans-serif;
    padding-top: 20px;
+   text-align: justify;
+   padding-right: 20px;
    
 }
 .vertical{
   display: flex;
   flex-direction: column;
-  margin: 80px;
+  margin: 20px;
+  padding-top: 60px;
+
 }
 .lorem{
   font-size: 14px;
@@ -322,6 +325,7 @@ padding-left: 20px;
    font-weight: 500;
    font-family: 'Poppins', sans-serif;
    padding-top: 20px;
+   text-align: justify;
 }
 
 

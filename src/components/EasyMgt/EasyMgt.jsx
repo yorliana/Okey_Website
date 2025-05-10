@@ -2,7 +2,7 @@
 import React from "react";
 import style from  './EasyMgt.module.css'
 import {Link} from "react-router-dom";
-import img from "../../assets/img/LogoOkey.png"
+import img from "../../assets/img/Logookey.png"
 import {useLocation} from "react-router-dom"
 import botoflecha from "../../assets/img/flechanegra.png"
 import boton from "../../assets/img/blotoflecha.png"
@@ -20,17 +20,11 @@ const EasyMgt = () => {
 
     <><div className={style.contenedor}>
 
-      <div className={style.idioma}>
-        <Link className={style.button}>ES | EN</Link>
-      </div>
+     
+   <img className={style.img} src={img} alt="" />
 
-      <div className={style.con}>
-        <div className={style.imgenes}> 
-        <img className={style.img} src={img} alt="" />
-        </div>
-      </div>
       <div className={style.flecha}>
-        <a className={style.btn} href="/landing"><img className={style.boto} src={boton} alt="" /></a>
+        <a className={style.btn} href="/"><img className={style.boto} src={boton} alt="" /></a>
 
       </div>
       <div className={style.letraspro}>

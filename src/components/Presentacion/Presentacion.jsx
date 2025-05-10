@@ -2,7 +2,7 @@ import React , { useState} from "react";
 import style from  './Presentacion.module.css'
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router-dom"
-import img from "../../../src/assets/img/LogoOkey.png"
+import img from "../../../src/assets/img/Logookey.png"
 import ovalo from '../../assets/img/Okey_Web.png'
 import flecha from '../../assets/img/flecha.png'
 import Redes from "../foo/Redes";
@@ -48,9 +48,7 @@ const Presentacion = () => {
 <I18nextProvider i18n={i18next}>
     <div className={style.contenedor}> 
     
-<div className={style.idioma}>
-            <Link className={style.buttonIdioma}>ES | EN</Link>
-          </div>
+
 
         <div className={style.con}>
           <img className={style.img} src={img} alt="" />
@@ -62,7 +60,7 @@ const Presentacion = () => {
        <div className={style.contenido}>
           <p className={style.p}>Somos un estudio creativo que desarrolla sitios web interactivos <br />
             y sistemas de diseño de cualquier nivel <br />
-            <span className={style.flecha} >↓</span>
+            
             </p>
       </div>
 

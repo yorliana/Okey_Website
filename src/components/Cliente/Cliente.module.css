@@ -57,8 +57,7 @@
     
 .img{
     padding-left: 80px;
-    width: 300px;
-    height: 100px;
+    width: 500px;
     margin-left: 90px;
 
     }
@@ -91,6 +90,7 @@
 
     padding-left: 100px;
     display: flex;
+    padding-top: 20px;
   }
 
 .p{
@@ -231,16 +231,18 @@
 .cards{
 
     display: flex;
-    padding-left: 190px;
+    padding-left: 160px;
+    padding-right: 100px;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 100px;
     justify-content:space-evenly;
+    margin-bottom: 10%;
    
 }
 .card{
 
-    width: 280px;          
-    height: 400px;          
+    width: 250px;          
+    height: 250px;          
     background:#121213;       
     border: 1px solid #000;
     justify-content: space-between;

@@ -3,7 +3,7 @@ import React from "react";
 import style from  './Team.module.css'
 
 import {Link} from "react-router-dom";
-import img from "../../../src/assets/img/LogoOkey.png"
+import img from "../../../src/assets/img/Logookey.png"
 import flecha from '../../assets/img/flecha.png'
 import {useLocation} from "react-router-dom"
 import botoflecha from "../../assets/img/blotoflecha.png"
@@ -21,9 +21,6 @@ const Team = () => {
 
     <div className={style.contenedor}> 
     
-        <div className={style.idioma}>
-            <Link className={style.button}>ES | EN</Link>
-        </div>
 
           <div className={style.con}>
           <img className={style.img} src={img} alt="" />
@@ -37,9 +34,7 @@ const Team = () => {
                     <p className={style.p}>Team</p>
                     
                 </div>
-                <div className={style.morado}>
-                   <span className={style.flechabajo} >↓</span>
-                </div>
+              
        
          
         

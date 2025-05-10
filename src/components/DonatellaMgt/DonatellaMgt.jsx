@@ -1,7 +1,7 @@
 import React from "react";
 import style from  './DonatellaMgt.module.css'
 import {Link} from "react-router-dom";
-import img from "../../assets/img/LogoOkey.png"
+import img from "../../assets/img/Logookey.png"
 import {useLocation} from "react-router-dom"
 import botoflecha from "../../assets/img/flechanegra.png"
 import boton from "../../assets/img/blotoflecha.png"
@@ -20,9 +20,7 @@ const DonatellaMgt = () => {
 
     <><div className={style.contenedor}>
 
-      <div className={style.idioma}>
-        <Link className={style.button}>ES | EN</Link>
-      </div>
+     
 
       <div className={style.con}>
         <img className={style.img} src={img} alt="" />
@@ -36,10 +34,7 @@ const DonatellaMgt = () => {
         <p className={style.p}>Motion</p>
 
       </div>
-      <div className={style.morado}>
-        <span className={style.flechabajo}>↓</span>
-       
-      </div>
+     
       <div className={style.easy}>
  <h2 className={style.h2}>DONATELLA</h2>
       </div>

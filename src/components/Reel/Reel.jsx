@@ -1,7 +1,7 @@
 import React from "react";
 import style from  './Reel.module.css'
 import {Link} from "react-router-dom";
-import img from "../../../src/assets/img/LogoOkey.png"
+import img from "../../../src/assets/img/Logookey.png"
 import flecha from '../../assets/img/flecha.png'
 import {useLocation} from "react-router-dom"
 import botoflecha from "../../assets/img/blotoflecha.png"
@@ -22,10 +22,7 @@ const Reel = () => {
 
     <div className={style.contenedor}> 
     
-        <div className={style.idioma}>
-            <Link className={style.button}>ES | EN</Link>
-        </div>
-
+       
           <div className={style.con}>
           <img className={style.img} src={img} alt="" />
          
@@ -38,9 +35,7 @@ const Reel = () => {
                     <p className={style.p}>Nosotros</p>
                     
                 </div>
-                <div className={style.morado}>
-                   <span className={style.flechabajo} >↓</span>
-                </div>
+                
 
                 <div className={style.easy}>
                     <h2 className={style.h2}>REEL</h2>

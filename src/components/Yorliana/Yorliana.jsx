@@ -1,7 +1,7 @@
 import React from "react";
 import style from  './Yorliana.module.css'
 import {Link} from "react-router-dom";
-import img from "../../../src/assets/img/LogoOkey.png"
+import img from "../../../src/assets/img/LogoOkey2.png"
 import flecha from '../../assets/img/flecha.png'
 import {useLocation} from "react-router-dom"
 import botoflecha from "../../assets/img/blotoflecha.png"
@@ -19,9 +19,7 @@ const Yorliana = () => {
 
     <div className={style.contenedor}> 
     
-        <div className={style.idioma}>
-            <Link className={style.button}>ES | EN</Link>
-        </div>
+        
 
           <div className={style.con}>
           <img className={style.img} src={img} alt="" />
@@ -32,18 +30,17 @@ const Yorliana = () => {
           
                 </div>
                 <div className={style.letraspro}>
-                    <p className={style.p}>Development</p>
+                    <p className={style.p}>Development&COO</p>
                     
                 </div>
-                <div className={style.morado}>
-                   <span className={style.flechabajo} >↓</span>
-                </div>
+              
                 <div className={style.easy}>
- <h2 className={style.h2}>YORLIANA MUÑOZ</h2>
+ <h2 className={style.h2}>YORLIANA</h2>
+ <h2 className={style.h2}>MUÑOZ</h2>
  
       </div>
       
-         <p className={style.yorli}>yorlianam@okey.com</p>
+         <p className={style.yorli}>ing.yorlianam24@gmail.com</p>
  
         
         

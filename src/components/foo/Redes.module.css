@@ -4,10 +4,11 @@
     display:flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 80px;
     font-family: 'Archivo, sans-serif';
     position: relative;
     width: 100px;
+   padding-top: 80px;
    
   
 
@@ -34,22 +35,23 @@
   
 }
 .link{
-  font-size: 20px;
+
  color: #FFFFFF;
  line-height: normal;
  position:absolute;
  width: 200px;
  font-family: 'Archivo', sans-serif;
- font-size: 15px;
+ font-size: 18px;
 justify-content: space-between;
  padding-top: 10px;
  display: inline-block;
  list-style: none ;
  text-decoration: none;
+ margin-right: 50px;
 }
 
 .p{
-  font-size: 10px;
+  font-size: 12px;
   font-family: 'Poppins', sans-serif;
   display: flex;
 
@@ -70,6 +72,8 @@ justify-content: space-between;
   display: flex;
  flex-direction: row;
  padding: 10px;
+ padding-right: 0px;
+ column-gap: normal;
 
 }
 .inst{
@@ -109,7 +113,7 @@ justify-content: space-between;
     align-items: left;
     color: #FFFFFF;
     font-family: 'Archivo', sans-serif;
-    margin-left:  100px;
+    margin-left:  120px;
     padding: 20px;
     height: 200px;
     width: 180px;

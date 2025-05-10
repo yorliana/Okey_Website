@@ -5,7 +5,7 @@ import style from "./NavBar.module.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Styles/main.css";
 import {  useLocation } from "react-router-dom";
-import img from '../../assets/img/LogoOkey.svg'
+import img from '../../assets/img/Logookey1.png'
 
 const NavBar = () =>{
   
@@ -33,21 +33,11 @@ const showNavbar = () => {
         
 		<header>
 			<div className={style.img}>
-				<img  width={'230px'} left = {'430px'}  height= {'220px'} top= {'49.12px'} position= {'relative'}  src={img} alt="" />
+				<img  width={'1200px'} left = {'430px'}  height= {'450px'} top= {'49.12px'} position= {'relative'}  src={img} alt="" />
 			</div>
 		
     	
-			<nav ref={navRef}>
-				
-				<a href="/#">ES | EN</a>
-				
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					<FaTimes />
-				</button>
-				
-			</nav>
+			
 			
 			<button
 				className="nav-btn"

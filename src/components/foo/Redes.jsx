@@ -20,7 +20,7 @@ const Redes= () => {
             
    
             <div className={style.icons}>
-                <div   div style={{width: 200, height: 0, border: '0.50px white solid'}}></div>
+                <div   div style={{width: 150, height: 0, border: '0.50px white solid'}}></div>
                     <Link className={style.link}>instagram <br />  <p className={style.p}>okey_w&c</p></Link>
                     
                    <div className={style.red}>
@@ -36,7 +36,7 @@ const Redes= () => {
             <div className={style.NavBarContainer}>
    
                  <div className={style.icons}>
-                    <div style={{width: 200, height: 0, border: '0.50px white solid'}}></div>
+                    <div style={{width: 150, height: 0, border: '0.50px white solid'}}></div>
                     <Link className={style.link}>facebook <br /> <p className={style.p}>okey_w&c</p></Link>
                     <div className={style.red}>
                          <a className={style.inst} href="#"><img className={style.icon}  src={facebook} alt="" /></a>
@@ -50,7 +50,7 @@ const Redes= () => {
             <div className={style.NavBarContainer}>
    
             <div className={style.icons}>
-                <div style={{width: 200,  height: 0, border: '0.50px white solid'}}></div>
+                <div style={{width: 150,  height: 0, border: '0.50px white solid'}}></div>
                     <Link className={style.link}>linkedin <br /><p className={style.p}>okey Website&Creativity</p></Link>
                     <div className={style.red}>
                          <a className={style.inst} href="#"><img className={style.icon}  src={linkedin} alt="" /></a>
@@ -65,7 +65,7 @@ const Redes= () => {
             <div className={style.NavBarContainer}>
    
                     <div className={style.icons}>
-       <div style={{width: 200, height: 0, border: '0.50px white solid'}}></div>
+       <div style={{width: 150, height: 0, border: '0.50px white solid'}}></div>
            <Link className={style.link}>tik tok <br />  <p className={style.p}>@okey Website&Creativity</p></Link>
            <div className={style.red}>
                          <a className={style.inst} href="#"><img className={style.icon}  src={tiktok} alt="" /></a>

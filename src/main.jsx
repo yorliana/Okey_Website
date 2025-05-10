@@ -1,6 +1,6 @@
 
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
@@ -11,6 +11,7 @@ import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 import global_en from "./components/i18n/en.json"
 import global_es from "./components/i18n/es.json"
+import { createRoot } from 'react-dom/client';
 
 i18next.init({
   interpolation: { escapeValue: false},

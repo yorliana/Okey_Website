@@ -24,7 +24,8 @@
       justify-content: left;
       padding: 20px;
       justify-content: left;
-      width: 200px;    
+      width: 200px;   
+      justify-content:space-evenly 
 }
 
 .contenedor{
@@ -49,7 +50,7 @@ justify-content: space-between;
 }
 
 .p{
-  font-size: 10px;
+  font-size: 12px;
   font-family: 'Poppins', sans-serif;
   display: flex;
 

@@ -8,6 +8,26 @@
   
   
 }
+.bottom{
+ 
+  width: 90px;
+  height: 90px;
+
+  display: flex;
+  justify-content: right;
+  margin-top: 0;
+
+}
+
+.botoncerrar{
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: right;
+border-radius: 50px;
+
+}
+
 .h1{
 
   font-family:'Poppins', sans-serif ;

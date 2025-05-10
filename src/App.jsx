@@ -18,6 +18,9 @@ import Contacto from "./Pages/Contacto/Contacto";
 import { useTranslation } from "react-i18next";
 import Modal from "./components/Modal/Modal";
 import Modals from "./Pages/Modals/Modals";
+import Carrusel from "./Pages/Carrusel/Carrusel";
+
+
 
 
 function App() {
@@ -42,6 +45,9 @@ const {t} = useTranslation()
         <Route path="/contacto" element={<Contacto/>} />
         <Route path="/modals" element={<Modals/>} />
         <Route path="/modal" element={<Modal/>} />
+        <Route path="/carrusel" element={<Carrusel/>} />
+        
+
        
       </Routes>
      
