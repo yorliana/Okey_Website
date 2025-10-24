@@ -1,8 +1,8 @@
 import React from 'react';
 
 import image1 from '../../assets/img/Logokey.png';
-import image2 from '../../assets/img/Logookey2.png';
-import image3 from '../../assets/img/Logookey.png';
+import image2 from '../../assets/img/okeylogo2.png';
+import image3 from '../../assets/img/okeylogo.png';
 import style from './Carrusel.module.css'
 
 import Carosuel from '../../components/SliderBanner/Carosuel';
