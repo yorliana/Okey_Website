@@ -99,7 +99,7 @@ const EasyMgt = () => {
      </div>
 
      
-      <div className={style.video-container}>
+      <div className={style.videoC}>
   <video
     className="video"
     autoPlay
