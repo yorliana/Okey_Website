@@ -416,10 +416,9 @@
 
   }
 .videoC{
-  position: relative;
-  width: 100%;
-  height: 500px; /* ajusta la altura */
-  overflow: hidden;
+padding: auto;
+height: 450px;
+
 }
 
 .video {
