@@ -19,7 +19,7 @@ const form = useRef();
     e.preventDefault();
 
     emailjs
-      .sendForm('service_idkxpz4', 'template_9tbu01s', form.current, {
+      .sendForm('service_6j5xx4e', 'template_9tbu01s', form.current, {
         publicKey: 'YVLs0NhG0pb2h3KQW',
       })
       .then(

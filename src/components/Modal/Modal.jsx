@@ -41,7 +41,7 @@ const ModalAutomatico = ({ children }) => {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     backgroundColor: '#E6E6E6',
-    opacity: "2",
+   opacity: 0.5,
     padding: '20px',
     borderRadius: '50px',
     minWidth: '1300px', 
