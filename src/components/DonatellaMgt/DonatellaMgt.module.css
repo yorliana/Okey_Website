@@ -12,7 +12,7 @@
     border-top-left-radius: 10;
     border-top-right-radius: 10;
     flex-direction:column;
-    padding-left: 120px;
+   
     background: #284743;
     }
 
@@ -41,7 +41,7 @@
     background-color: #284743;
     color: white;
     background: #284743;
-    padding-right: 120px;
+
     margin-right: 120px;
           
      
@@ -49,17 +49,17 @@
 
 .con{
       
-    flex-direction:row;
+   
     display: flex;
-    justify-content: left;
-    padding-left: 100px;
+   
+  
         
     } 
     
 .img{
-    padding-left: 50px;
+
     width: 500px;
-    margin-left: 90px;
+    padding-left: 210px;
 
     }
 
@@ -290,7 +290,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
-   padding-left: 100px;
+ 
    margin-top: 10px;
   
    }

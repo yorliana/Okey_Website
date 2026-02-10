@@ -22,10 +22,10 @@ const DonatellaMgt = () => {
 
      
 
-      <div className={style.con}>
+    
         <img className={style.img} src={img} alt="" />
 
-      </div>
+      
       <div className={style.flecha}>
         <a className={style.btn} href="/proyectos"><img className={style.boto} src={boton} alt="" /></a>
 
