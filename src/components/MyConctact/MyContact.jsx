@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import img from "../../assets/img/okeylogo.png"
 import {useLocation} from "react-router-dom"
 import Formulario from "../Formulario/Formulario";
-import fondo from "../../assets/img/Okey_Web.png"
+import fondoWeb from "../../assets/img/fondoweb.png"
 import Redes from "../foo/Redes";
 import botoflecha from "../../../src/assets/img/blotoflecha.png"
 
@@ -23,8 +23,7 @@ const Contact = () => {
     <>
    
     
-    <div className={style.contenedor}>
-
+    <div className={style.contenedor}   style={{ backgroundImage: `url(${fondoWeb})` }}>
 
       <div className={style.contend}>
         <img className={style.img} src={img} alt="" />

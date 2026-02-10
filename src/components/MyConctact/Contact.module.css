@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Poppins:wght@100;400&display=swap');
 
 .contenedor{
-    background-image: url("src/assets/img/fondoweb.png");
+ 
     display: flex;
     align-items: left;
     justify-content: left;
