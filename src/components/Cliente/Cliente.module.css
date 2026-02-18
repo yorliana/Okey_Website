@@ -57,7 +57,7 @@
     
 .img{
     padding-left: 80px;
-    width: 500px;
+    width: 300px;
     margin-left: 90px;
 
     }
@@ -231,23 +231,43 @@
 .cards{
 
     display: flex;
-    padding-left: 160px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     flex-direction: row;
     margin-top: 100px;
     justify-content:space-evenly;
-    margin-bottom: 10%;
+ 
+   
+}
+.cards1{
+
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: row;
+  
+   
+ 
    
 }
 .card{
 
-    width: 250px;          
-    height: 250px;          
+    width: 480px;          
+    height: 300px;          
     background:#121213;       
     border: 1px solid #000;
     justify-content: space-between;
   
 }
+
+.card1{
+
+    width: 480px;          
+    height: 300px;          
+          
+  
+}
+
 
 
 
