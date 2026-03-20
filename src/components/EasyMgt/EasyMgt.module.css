@@ -14,6 +14,10 @@
     flex-direction:column;
     padding-left: 120px;
     background: #284743;
+    background-image: url('../../assets/img/PORTADA.jpg');
+      background-size: cover; /* Ajusta la imagen */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita */
     }
 
 .idioma{
