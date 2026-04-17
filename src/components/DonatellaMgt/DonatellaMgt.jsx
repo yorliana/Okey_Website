@@ -31,7 +31,7 @@ const DonatellaMgt = () => {
 
       </div>
       <div className={style.letraspro}>
-        <p className={style.p}>Motion</p>
+        <p className={style.p}>Branding & Landing Page</p>
 
       </div>
      

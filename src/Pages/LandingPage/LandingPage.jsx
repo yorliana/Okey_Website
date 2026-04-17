@@ -12,7 +12,7 @@ import global_es from "../../components/i18n/es.json"
 import { I18nextProvider } from "react-i18next";
 
 import Modals from "../Modals/Modals";
-import Modal from "../../components/Modal/Modal";
+
 i18next.init({
     interpolation: { escapeValue: false},
     lng: "es",
@@ -44,7 +44,7 @@ export default function LandingPage() {
 
           <img className={style.ovalo} src={ovalo} alt="" />
           
-<Modal />
+
 
 
     <Presentacion />

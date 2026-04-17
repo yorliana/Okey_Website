@@ -21,9 +21,9 @@ const EasyMgt = () => {
 
     <><div className={styles.contenedor}>
 
-     
+    <div className={styles.img}>
    <img className={styles.img} src={img} alt="" />
-
+</div> 
       <div className={styles.flecha}>
         <a className={styles.btn} href="/"><img className={styles.boto} src={boton} alt="" /></a>
 
@@ -97,11 +97,14 @@ const EasyMgt = () => {
     
 
      
-      <div >
-  <video width="1200" height="450"  controls>
-      <source src={video} type="video/mp4" />
-      Tu navegador no soporta video HTML5.
-    </video>
+      <div className=" marginRight: 120px">
+ <video
+  controls
+  style={{ width: "90%", height: "auto" ,   borderRadius: "20px"}}
+>
+  <source src={video} type="video/mp4" />
+  Tu navegador no soporta video HTML5.
+</video>
 </div>
 
     
