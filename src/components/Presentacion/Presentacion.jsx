@@ -62,13 +62,9 @@ const Presentacion = () => {
       </div>
 
 
-  
-
-
         <div id={style.NavBarContainer}>
           
         
-     
             <ul>
             <Link to={"/proyectos"} ><li id={pathname==="/proyectos"? style.active:undefined} >Proyectos</li> </Link>
                 <Link to={"/nosotros"} ><li id={pathname.includes("/nosotros")? style.active:undefined} >Nosotros</li> </Link>
@@ -78,9 +74,6 @@ const Presentacion = () => {
            
             </ul>
    
-          
-     
-     
             
         </div>
         
@@ -88,7 +81,6 @@ const Presentacion = () => {
 </div>
 
 
-  
        
 </I18nextProvider>
 

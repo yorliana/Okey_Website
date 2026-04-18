@@ -3,7 +3,7 @@ import style from  './DonatellaMgt.module.css'
 import {Link} from "react-router-dom";
 import img from "../../assets/img/okeylogo.png"
 import {useLocation} from "react-router-dom"
-import botoflecha from "../../assets/img/flechanegra.png"
+import botoflecha from "../../assets/img/blotoflecha.png"
 import boton from "../../assets/img/blotoflecha.png"
 
 import RedesDonatella from "./RedesDonatella/RedesDonatella";

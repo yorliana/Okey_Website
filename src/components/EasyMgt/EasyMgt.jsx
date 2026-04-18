@@ -4,7 +4,7 @@ import styles from  './EasyMgt.module.css'
 import {Link} from "react-router-dom";
 import img from "../../assets/img/Logo-okey-1.png"
 import {useLocation} from "react-router-dom"
-import botoflecha from "../../assets/img/flechanegra.png"
+import botoflecha from "../../assets/img/blotoflecha.png"
 import boton from "../../assets/img/blotoflecha.png"
 import img1 from "../../assets/img/PORTADA.jpg"
 import video from "../../assets/video/video.mp4"

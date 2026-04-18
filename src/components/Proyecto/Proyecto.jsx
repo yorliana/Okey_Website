@@ -44,7 +44,7 @@ const Proyecto = () => {
                <Link to={"/easy"} ><li id={pathname==="/proyectos"? style.active:undefined} >EASY MGT  <img className={style.flez} src={icon} alt="" /> </li>  </Link>
                 <Link to={"/donatella"} ><li id={pathname.includes("/nosotros")? style.active:undefined} >DONATELLA <img src={icon} alt="" />  </li>  </Link>
 
-                <Link to={"/desing"} ><li id={pathname==="/contacto"? style.active:undefined} >TRAPO   <br /> DESING  <img src={icon} alt="" /> </li> </Link> 
+                <Link to={"/trapodesing"} ><li id={pathname==="/contacto"? style.active:undefined} >TRAPO   <br /> DESING  <img src={icon} alt="" /> </li> </Link> 
            
            
             </ul>

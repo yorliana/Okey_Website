@@ -15,6 +15,7 @@
   background-size: contain;          /* 👈 tamaño original */
   background-position: top left;  /* 👈 no la centra raro */
   background-repeat: no-repeat;
+  background-color: #F1EFF3;
     }
 
 .idioma{
