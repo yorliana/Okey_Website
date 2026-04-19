@@ -48,19 +48,11 @@ export default function LandingPage() {
 
 
     <Presentacion />
-    
 
-   
     
-<Redes/>
-  <div className={style.con}>
-  <a className={style.btn} href="#"><img className={style.botoflecha}  src={botoflecha} alt="" /></a>
-  </div>
-<div className={style.copyright}>
-
-        <p className={style.copy}>Copyright © 2023 | Okey Website&Creativity | Todos los derechos reservados </p>
+      
        </div>
-       </div>
+      
         </div>
         </I18nextProvider>
       

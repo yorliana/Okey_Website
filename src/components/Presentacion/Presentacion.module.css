@@ -8,7 +8,7 @@
     padding: 0.1rem;
     color: var(--textColor);
     width: 1200px ;
-    height:1100px;
+ height: 800px;
     border-top-left-radius: 10;
     border-top-right-radius: 10;
     flex-direction:column;
@@ -26,14 +26,14 @@
 }
 
 .ovalo{
-      position:absolute;
+      position:relative;
       display: inline-block;
       justify-content: center;
       display: flex;
       align-items: left;
-      padding-top: 48rem;
+     margin: 5px;
       padding-left: 300px;
-      width: 1250px;
+      width: 1200px;
     
     }
     .con{
@@ -77,8 +77,8 @@ padding-left: 5px;
 .flecha{
   
   color: #803DEA;
-  margin-top: 10px;
-  size: 20px;
+
+  size: 10px;
   
  
 
@@ -126,14 +126,14 @@ padding-left: 5px;
   color: #FFFFFF;
   font-family: 'Archivo', sans-serif;
   height: 30px;
-  margin-top: 50rem;
-padding-right: 5px;
+  margin-top: 60rem;
+position: absolute;
 }
 
 
 #NavBarContainer ul {
   width: 100%;
-  max-width: 750px;
+  max-width: 760px;
   display:flex;
   align-items: center;
   justify-content:left;
@@ -141,7 +141,7 @@ padding-right: 5px;
   padding: 2px 0;
   font-family: 'Archivo', sans-serif;
  gap: 20px;
- padding-right: 5px;
+
  }
 #NavBarContainer#NavBarContainer ul a{
   text-decoration: none;
@@ -152,7 +152,7 @@ padding-right: 5px;
   color: #909497;
   font-family: 'Archivo', sans-serif;
   font-style: normal;
-  font-size: 50px;
+  font-size: 30px;
   display: flex;
   align-items: flex-start;  /* 👈 clave para centrar verticalmente */
   gap: 6px;  

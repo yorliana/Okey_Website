@@ -3,7 +3,7 @@
 
 .LandinPage{
     width: 1800px;
-    height: 3400px;
+    height: 800px;
   
     border-radius:  0px, 40px, 40px;
   
@@ -18,7 +18,7 @@
     align-items: left;
     padding-left: 100px;
     width: 1250px;
-    height: 1480px;
+    
     background: black;
    margin: 0;
    
@@ -29,11 +29,11 @@
     .copy{
 
         display: flex;
-        padding-left: 20px;
+        padding-left: 5px;
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
         flex-direction: row;
-        margin-left: 120px;
+        margin-left: 5px;
         color: #FFFFFF;
       }
       
