@@ -78,7 +78,7 @@ padding-left: 5px;
   
   color: #803DEA;
 
-  size: 10px;
+  width: 30px;
   
  
 
@@ -133,7 +133,7 @@ position: absolute;
 
 #NavBarContainer ul {
   width: 100%;
-  max-width: 760px;
+  max-width: 800px;
   display:flex;
   align-items: center;
   justify-content:left;
@@ -148,7 +148,7 @@ position: absolute;
 }
 
 #NavBarContainer ul li {
-  
+  width: 100%;
   color: #909497;
   font-family: 'Archivo', sans-serif;
   font-style: normal;
