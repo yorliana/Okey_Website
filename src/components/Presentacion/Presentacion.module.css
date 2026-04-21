@@ -82,7 +82,7 @@ padding-left: 5px;
 
 .contenido{
   width: 54%;
-  margin-left: auto;   /* 👈 mejor que 55rem */
+  margin-left: 44rem;   /* 👈 mejor que 55rem */
   margin-top: 25px;
   display: flex;
   transform: translateY(-200px);

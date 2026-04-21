@@ -4,7 +4,7 @@
 .LandinPage{
   
   width: 100%;
-  height: 100vh; /* 👈 ocupa toda la pantalla */
+  height: auto; /* 👈 ocupa toda la pantalla */
   overflow: hidden;
   background: black;
   background-image: url("../assets/img/Okey_Web.png");
@@ -50,18 +50,16 @@
     margin-right: 0%;
     
 }
-.ovalo{
-    position:absolute;
-    display: inline-block;
-    justify-content: center;
-    display: flex;
-    align-items: left;
-    margin-top: 0;
-   width: 59%;
-   
-    padding-left: 150px
-  
-  }
+.ovalo {
+  position: absolute;
+  left: 22rem;
+margin-top: 0;
+  width: 57%;
+  max-width: 100%;
+height: auto;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
 
 .button{
    
