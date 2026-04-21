@@ -30,7 +30,7 @@ const Proyecto = () => {
           
                 </div>
                 <div className={style.letraspro}>
-                    <p className={style.p}>Proyectos</p>
+                    <p className={style.p}>ArtPublic</p>
                     
                 </div>
                 

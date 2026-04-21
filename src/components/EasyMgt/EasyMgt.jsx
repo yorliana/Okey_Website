@@ -40,12 +40,6 @@ const EasyMgt = () => {
  <h2 className={styles.h2}>EASY MGT</h2>
       </div>
 
-
-
-
-
-
-
       <div>
 </div>
 

@@ -1,12 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Poppins&display=swap');
+body {
+  overflow-x: hidden; /* 👈 por si acaso */
+}
 .contenedor{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;   /* 👈 clave */
   width: 100%;     /* 👈 quitar 1200px */
-  overflow: hidden;
+  overflow-x: hidden;
+  
 }
 
 .imagen{
@@ -20,17 +24,7 @@
   text-align: center;
 }
 
-.ovalo{
-      position:relative;
-      display: inline-block;
-      justify-content: center;
-      display: flex;
-      align-items: left;
-     margin: 5px;
-      padding-left: 300px;
-      width: 1200px;
-    
-    }
+
     .con{
       flex-direction:row;
       display: flex;
@@ -89,9 +83,12 @@ padding-left: 5px;
 }
 
 .contenido{
-  width: 420px;
+  width: 550px;
   margin-left: auto;   /* 👈 mejor que 55rem */
-  margin-top: 120px;
+  margin-top: 25px;
+  display: flex;
+  transform: translateY(-200px);
+  padding-left: 200px;
 }
 .modal{
   display: flex;
@@ -106,10 +103,10 @@ padding-left: 5px;
 
 }
 .p{
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
   color: #FFFFFF;
-  padding-right: 8px;
+  padding-right: 200px;
 }
 
 #NavBarContainer{
@@ -121,7 +118,8 @@ padding-left: 5px;
   font-family: 'Archivo', sans-serif;
   height: 25px;
   position: relative;   /* 👈 quita absolute */
-  margin-top: 10px;    
+  margin: 10px; 
+  padding-top: 15px;   
 }
 
 
@@ -129,16 +127,18 @@ padding-left: 5px;
   width: 100%;
   max-width: 700px;
   display:flex;
-  align-items: center;
+  align-items: left;
   justify-content:left;
   list-style: none;
-  padding: 1px 0;
+padding-left: 5px;
   font-family: 'Archivo', sans-serif;
  gap: 20px;
+ padding-top: -40px;
 
  }
 #NavBarContainer#NavBarContainer ul a{
   text-decoration: none;
+  margin-top: -98px;
 }
 
 #NavBarContainer ul li {
@@ -150,6 +150,7 @@ padding-left: 5px;
   display: flex;
   align-items: flex-start;  /* 👈 clave para centrar verticalmente */
   gap: 4px;  
+  margin-top: 5px;
 }
 
 #NavBarContainer ul li:hover{
