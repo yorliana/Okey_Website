@@ -83,10 +83,11 @@ padding-left: 5px;
 .contenido{
   width: 54%;
   margin-left: 44rem;   /* 👈 mejor que 55rem */
-  margin-top: 25px;
+  margin-top: 5px;
   display: flex;
-  transform: translateY(-200px);
+  margin-top: -200px;
   padding-left: 200px;
+  margin-bottom:17rem;
 }
 .modal{
   display: flex;
@@ -144,7 +145,7 @@ padding-left: 5px;
   color: #909497;
   font-family: 'Archivo', sans-serif;
   font-style: normal;
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
   align-items: flex-start;  /* 👈 clave para centrar verticalmente */
   gap: 4px;  
@@ -231,3 +232,20 @@ padding-left: 5px;
   }
 }
 
+/* Tablets */
+@media (max-width: 1024px) {
+  .h2 {
+    font-size: 70px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+  }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+  .h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+  }
+}

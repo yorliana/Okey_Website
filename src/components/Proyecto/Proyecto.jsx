@@ -30,7 +30,7 @@ const Proyecto = () => {
           
                 </div>
                 <div className={style.letraspro}>
-                    <p className={style.p}>ArtPublics</p>
+                    <p className={style.p}>Proyectos</p>
                     
                 </div>
                 
@@ -45,6 +45,7 @@ const Proyecto = () => {
                 <Link to={"/donatella"} ><li id={pathname.includes("/nosotros")? style.active:undefined} >DONATELLA <img src={icon} alt="" />  </li>  </Link>
 
                 <Link to={"/trapodesing"} ><li id={pathname==="/contacto"? style.active:undefined} >TRAPO   <br /> DESING  <img src={icon} alt="" /> </li> </Link> 
+           <Link to={"/artpublic"} ><li id={pathname==="/artpublic"? style.active:undefined} >ART PUBLIC    <img src={icon} alt="" /> </li> </Link> 
            
            
             </ul>
